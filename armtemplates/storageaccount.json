@@ -1,0 +1,71 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/f0b9ad03-d225-4217-9bfc-4b0773b2650e/resourceGroups/TestRG01/providers/Microsoft.Storage/storageAccounts/storagecj03",
+    "name": "storagecj03",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2022-12-23T23:37:00.0205682Z",
+            "key2": "2022-12-23T23:37:00.0205682Z"
+        },
+        "allowCrossTenantReplication": true,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2022-12-23T23:37:00.0361972Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2022-12-23T23:37:00.0361972Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-12-23T23:36:59.8955440Z",
+        "primaryEndpoints": {
+            "dfs": "https://storagecj03.dfs.core.windows.net/",
+            "web": "https://storagecj03.z13.web.core.windows.net/",
+            "blob": "https://storagecj03.blob.core.windows.net/",
+            "queue": "https://storagecj03.queue.core.windows.net/",
+            "table": "https://storagecj03.table.core.windows.net/",
+            "file": "https://storagecj03.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "westus",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://storagecj03-secondary.dfs.core.windows.net/",
+            "web": "https://storagecj03-secondary.z13.web.core.windows.net/",
+            "blob": "https://storagecj03-secondary.blob.core.windows.net/",
+            "queue": "https://storagecj03-secondary.queue.core.windows.net/",
+            "table": "https://storagecj03-secondary.table.core.windows.net/"
+        }
+    }
+}
